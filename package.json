@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Kaiser69/sony-kaiser-portfolio",
+  "homepage": "https://kaiser69.github.io/sony-kaiser-portfolio/",
   "name": "sony_kaiser",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +23,7 @@
     "bootstrap": "^4.6.0",
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^3.1.0",
     "grid": "^4.10.5",
     "gridjs": "^3.4.0",
     "js-file-download": "^0.4.12",
