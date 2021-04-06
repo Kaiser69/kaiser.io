@@ -1,9 +1,10 @@
 import React from "react";
 import author from "../me.png";
+import KaiserCV from "../kaisercv.jpg"
 
 const AboutMe = () => {
   return (
-    <div id="about" className="container py-5">
+    <div id="about" className="container about py-5">
 
 <h1 className="about-heading mb-5">about me</h1>
 <div class="section-title-divider"></div>
@@ -14,6 +15,14 @@ const AboutMe = () => {
           <div className="photo-wrap mb-5">
             <img className="profile-img" src={author} alt="author..." />
           </div>
+          <div className="Medownload">
+          <a href={KaiserCV} target="_blank" rel="noopener noreferrer" download>
+   <button type="button" class="btn btn-outline-success">
+      <i className="fas fa-download"/>
+      Download CV
+   </button>
+</a>
+               </div>
         </div>
         <div className="col-lg-8 col-xm-12">
           <h3 className="about-title">Great services and ideas</h3>

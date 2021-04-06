@@ -1,15 +1,11 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
-import background from "../download.webp";
 
 
 const Header = () => {
   return (
-    <div id="home" className="header-wraper" 
-    style={{
-        backgroundImage: `url(${background})`,backgroundRepeat:'no-repeat',height:'90vh',width:'100%',backgroundSize:"cover",
-        position:"absolute"}}>
+    <div id="home" className="header-wraper">
       <div className="main-info">
         <canvas></canvas>
         <h1>Kaiser A ÖzHun Front-end UI Developer</h1>
